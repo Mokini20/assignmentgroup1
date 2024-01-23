@@ -1,0 +1,111 @@
+
+body
+{
+	margin: 0 ;
+	font-family: calibri;
+}
+
+.frozen{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*border:2px solid blue;*/
+	height: 352.5px;
+
+}
+#contacts{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #08ff35;
+	text-shadow: 1px 1px 0.1px black;
+	height: 70.5px;
+	margin-bottom: 5px;
+}
+
+#pi{text-align: center;}
+#form1{
+	/*border:2px solid red;*/
+	margin:0;
+	background-image:url("giraffe-wild.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 324.4px; 
+	height: 340px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 1px 5px 0.5px gray;
+	/*margin-top: 5px;
+	*/
+}
+
+#form-label{
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	align-items: center;
+	height: 500px;
+	color: #72ff95;
+	text-shadow: 1px 1px 0.5px black;
+}
+
+.inputs{
+	padding: 4px;
+	border:none;
+	border-radius: 5px;
+	width: 300px;
+}
+#footer_area{
+	background:skyblue;
+	padding: 1px;
+	font-size: 1.2em;
+	height: 70px;
+	margin-top: 1px;
+}
+#submit_btn{
+	border:none;
+	border-radius: 5px;
+	background: #08ff35;
+	padding: 3px;
+	width: 100px;
+	box-sizing: border-box;
+	box-shadow: 2px 1px 3px gray;
+	color:whitesmoke;
+/*	text-shadow: 1px 1px 1px black;
+*/	font-weight: bold;
+	font-family:arial black;
+
+}
+textarea {
+    width: 90%;
+    height: 2%;
+    padding: 4px;
+    color:#72ff95;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;text-align: center;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+h1{padding: 2px;}
